@@ -104,7 +104,7 @@ span {
 
 .navigation-list {
     display: inline-block;
-    position: right;
+    position: relative;
 }
 
 .navigation-list__item--active {
@@ -268,7 +268,7 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 }
 
 .grid__item:last-child {
-    grid-column-start: 3 / 3;
+    grid-column: 3 / 3;
     grid-row: 1 / 3;
 }
 
